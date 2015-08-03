@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Nathan Lee</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+</head>
+
+<body>
+
+<header>
+
+     <hgroup>
+       <h1>Nathan Lee</h1>
+       <h2>Webpage for HTML5 and CSS3 Course  Section 2 Lesson 1</h2>
+     </hgroup>
+
+	<nav>
+	  <ul>
+	   <li><a href="#">Home</a></li>
+	   <li><a href="#">About</a></li>
+	   <li><a href="#">Contact</a></li>
+	  </ul>
+	</nav>
+
+</header>
+
+<section>
+
+<h1>Welcome To My Webpage</h1>
+
+<article>
+
+<h2>Reason</h2>
+
+<p>My first html5 css3 webpage.</p>
+
+<figure>
+     <img src="http://i45.photobucket.com/albums/f79/crimsoncowboy51/redrolltide_zps22aee4dc.png" alt="ROLL TIDE!">
+     <figcaption><em>ROLL TIDE!</em></figcaption>
+</figure>
+
+<p>Home games are played at <i>Bryant-Denny Stadium</i>.<br>
+
+<strong>14 National Championships</strong><br>
+
+I personally don't count 1941.</p>
+<br>
+
+<p><a href="http://www.ua.edu" target="_blank">University of Alabama</a></p>
+<p><a href="another.html">To Another HTML Page</a></p>
+<p><a href="subfolder/subfolder.html">To Subfolder HTML Page</a></p>
+<p><a href="#bottom">To Bottom</a></p>
+<br>
+<p>I'm pretty sure no one cares if I like Alabama, lol.</p>
+</article>
+
+<hr>
+
+<article>
+
+<h2>Outcome</h2>
+
+<p>This is pretty cool.  I'm very excited to finally be writing code!  I'm just writing my own text instead of using the generic instructional text.  I'm putting everything the videos cover into this webpage.</p>
+
+<ol>
+<li>I'm just throwing random things in as filler until I can put a proper portfolio together.</li>
+</ol>
+
+<h3>Second header in article 2</h3>
+
+<p>We've covered using DOCTYPE like this:</p><br>
+<br>
+&lt;!DOCTYPE html&gt;<br>
+<br>
+
+
+<aside>I work out six days a week.  I currently bench press 365lbs, squat 545lbs and deadlift 605lbs for a 1515lb 3 lift. I started last August, but hurt my elbow in December and just started again in June.  Need to use up some space with text.  I am 5'10" and weigh 190lbs with a 6'3" reach.  Random facts are random facts.</aside>
+
+
+</article>
+<br>
+
+<hr>
+
+<br>
+<article>
+
+<h2>Lesson 08</h2>
+
+<ul>
+  <li>Starr</li>
+  <li>Stabler</li>
+  <li>Namath</li>
+</ul>
+
+<ol>
+  <li>Alexander</li>
+  <li>Humphrey</li>
+  <li>Ingram</li>
+</ol>
+
+<dl>
+  <dt>Coaches
+   <dd>Bryant
+   <dd>Stallings
+   <dd>Saban
+</dl>
+
+<hr>
+
+<pre>
+Lesson 08 Hello1
+{
+     public static void Main()
+      {
+          System.Console.Writeline("Roll, Tide!");
+      }
+}
+</pre>
+
+<hr>
+
+<h2>Lesson 09</h2>
+
+<h3>Dallas Cowboys</h3>
+
+<table>
+  <thead>
+   <th>Season</th>
+   <th>Wins</th>
+   <th>Losses</th>
+  </thead>
+  <tbody>
+   <tr>
+    <th>2014</th>
+    <td>13</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td colspan="3">NFC East Champions</td>
+  </tbody>
+  
+</table>
+
+</article>
+
+<hr>
+
+<article>
+
+<h2>Lesson 10</h2>
+
+<form method="POST" action="form.aspx" >
+
+<p>
+  <label> Customer Name: <input type="text" id="CustomerName" Name="CustomerName" maxlength="25" >
+</p>
+
+<fieldset>
+  <legend>Size</legend>
+  <p><label> <input type="radio" name="size" value="small"> Small </label></p>
+  <p><label> <input type="radio" name="size" value="medium"> Medium </label></p>
+  <p><label> <input type="radio" name="size" value="large"> Large </label></p>
+
+</fieldset>
+
+<fieldset>
+  <legend>Colors</legend>
+  <p><label> <input type="checkbox" name="color" value="crimson"> Crimson </label>
+  <p><label> <input type="checkbox" name="color" value="white"> White </label>
+  <p><label> <input type="checkbox" name="color" value="silver"> Silver </label>
+  <p><label> <input type="checkbox" name="color" value="blue"> Blue </label>
+
+</fieldset>
+
+<p>Type
+<select name="type">
+  <option value="c1" selected>Long (+$1)</option>
+  <option value="c2">Short</option>
+</select>
+</p>
+
+<p><label>Shipping:
+  <textarea name="comments" cols="30" rows="20" maxlength="200">
+Directions?
+  </textarea>
+  </label>
+</p>
+
+<p><input type="submit" value="Step 2"></p>
+<p><input type="reset" value="Reset Values"></p>
+
+</form>
+
+</article>
+
+<hr>
+
+<h2>Lesson 11</h2>
+
+<form method="POST" action="form.aspx">
+
+<h3>Email</h3>
+<p><label><span>Email Input: </span><input type=email name=emailInput required></label></p>
+
+<h3>Telephone</h3>
+<p><label><span>Telephone Input: </span><input type=tel name=telInput required></label></p>
+
+<h3>URL</h3>
+<p><label><span>URL Input: </span><input type=url name=urlInput required></label></p>
+
+<h3>Numeric Values</h3>
+
+<p><label><span>Number Input: </span><input type=number name=numberInput required></label></p>
+
+<p><label><span>Range Input: </span><input type=range name=rangeInput required value=14></label>Value set to 14.</p>
+
+<h3>Data List</h3>
+<p><label><span>Data List: </span>
+<input type=text list=someList>
+<datalist id=someList>
+  <option label=First value="First">
+  <option label=Second value="Second">
+  <option label=Third value="Third">
+</datalist>
+</label></p>
+
+<h3>Attributes</h3>
+
+<p><label><span>autofocus: </span><input type=text autofocus></label></p>
+<p><label><span>pattern: </span><input type=text pattern="^\d{5}(-\d{4})?$"></label>Zip Code</p>
+<p><label><span>placeholder: </span><input type=text placeholder="Roll Tide!"></label></p>
+<p><label><span>required: </span><input type=text required></label></p>
+<p><label><span>step: </span><input type=number step=5></label>/5</p>
+
+<p><button>Submit</button></p>
+
+</form>
+
+<hr>
+
+<h2><a href="Lesson12fwcss.html">Lesson 12</a></h2>
+
+<hr>
+
+<h2><a href="Lesson17cssff.html">Lesson 17</a></h2>
+
+<hr>
+
+<h2>Lesson 18</h2>
+
+<video src="30seconds.mp4" controls poster="poster.jpg">
+<p>Unfortunately Your browser cannot play the video.  You may <a href="30seconds.mp4">right-click this link and choose Save As</a> to download this video instead.</p>
+</video>
+
+<hr>
+
+<h2>Lesson 20</h2>
+
+<svg version="1.1" id="Layer_1" x="0px" y="0px"
+	 width="640px" height="480px" viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+<rect x="15" y="12" fill="#1B1464" stroke="#ED1C24" stroke-width="5" width="140" height="85"/>
+<circle fill="#F7931E" stroke="#FFFF00" stroke-width="5" cx="166" cy="100" r="56"/>
+<text transform="matrix(1 0 0 1 10 136)" fill="#009245" font-family="'ArialMT'" font-size="24">Just a test</text>
+<line fill="none" stroke="#000000" stroke-width="10" x1="15" y1="150" x2="234" y2="150"/>
+</svg>
+
+<hr>
+
+
+
+
+</section>
+
+<footer>
+
+<nav>
+	  <ul>
+	   <li><a href="#">Home</a></li>
+	   <li><a href="#">About</a></li>
+	   <li><a href="#">Contact</a></li>
+	  </ul>
+	</nav>
+
+<small>July 25, 2015</small>
+
+</footer>
+
+<a name="bottom">
+
+</body>
+
+</html>
